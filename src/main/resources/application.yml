@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: test-grupo
+
+#kafka:
+#  bootstrap-servers: localhost:9092
+##  producer:
+#  consumer:
+#    group-id: portabilidad-grupo
+##    topic: portabilidad-topic
